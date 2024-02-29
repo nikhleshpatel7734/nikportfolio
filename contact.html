@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nk portfolio </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    .footer{
+      background-color: #f2f2f2;
+      padding: 25px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ᑎIKᑭOᖇTᖴOᒪIO</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="active"><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+        <style>
+            .container-center {
+              width: 50%;
+              margin: 0 auto;
+            }
+          </style>
+          
+          <div class="container-center">
+            <form id="contact-form" name="contact-form" action="contact.html" method="POST">
+          
+              <!--Name-->
+              <div class="form-group md-form mb-4">
+                <label for="name" class="">Your name</label>
+                <input type="text" id="name" name="name" class="form-control">
+              </div>
+          
+              <!--Email-->
+              <div class="form-group md-form mb-4">
+                <label for="email" class="">Your email</label>
+                <input type="text" id="email" name="email" class="form-control">
+              </div>
+          
+              <!--Subject-->
+              <div class="form-group md-form mb-4">
+                <label for="subject" class="">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-control">
+              </div>
+          
+              <!--Message-->
+              <div class="form-group md-form">
+                <label for="message">Your message</label>
+                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+              </div>
+          
+            </form>
+          
+            <div class="text-center text-md-left">
+                <button type="submit" class="btn btn-primary" onclick="document.getElementById('contact-form').submit(); alert('Message sent successfully!');">Send</button>
+            </div>
+            <div class="status"></div>
+          </div>
+
+</section>
+<!--Section: Contact v.2-->
+<footer class="container-fluid text-center">
+  <h5>Thanks For Visiting 🙏</h5>
+  <h7>Connect with us:</h7>
+ <a href="facebook.com">Facebook</a><br>
+ <a href="https://github.com/nikhleshpatel7734">Github  </a><br>
+ <a href="https://www.linkedin.com/in/nikhlesh-b45510278">Linked</a><br>
+ <p>© NIKHLESH</p>
+</footer>
+
+</body>
+</html>

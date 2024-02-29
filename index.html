@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Nk portfolio </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-DyZ88mC6UpHMTDG+7nV2j41L5nZ73pd7ELA01/upR36rJk58x/hwPTJ6u9RxV9eW" crossorigin="anonymous">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    .footer{
+      background-color: #f2f2f2;
+      padding: 25px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ᑎIKᑭOᖇTᖴOᒪIO</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1 id="portfolio-title">Welcome to my Portfolio </h1>
+   
+    <p>I am Nikhlesh | BCA Student |
+       Proficient in Visual Basic, Microsoft .NET, C, HTML, CSS, PHP, and MySQL |
+        Proven ability to work on projects successfully | Maintaining high academic performance consistently |
+         Strong Written English Skills |
+          Diligent, Quick Learner, and Goal-Oriented |
+           Committed to completing tasks on time | 
+           Excited to start a career as a Web Developer.
+      I am a web developer from Kota, Rajasthan.</p>
+  </div>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+  <h3>Some of my Work</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <a href="https://github.com/nikhleshpatel7734/register-login-dashboard">
+      <p>Register and login page </p>
+      <img src="reg.png" class="img-responsive" style="width:100%" alt="Image">
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <a href="https://github.com/nikhleshpatel7734/movieticketbooking">
+      <p>Movie Mate</p>
+      <img src="mov.png" class="img-responsive" style="width:100%" alt="Image">
+    </a>
+    </div>
+    <div class="col-sm-3">
+      <a href="https://github.com/nikhleshpatel7734/BASIC-BANKING-SIITE">
+      <p>Basic Bank</p>
+      <img src="bank.png" class="img-responsive" style="width:100%" alt="Image">
+    </a>
+    </div>
+    <div class="col-sm-3">
+      <a href="https://github.com/nikhleshpatel7734/tastytraverse-cafe">
+      <p>Tasty Traverse Cafe</p>
+      <img src="res.png" class="img-responsive" style="width:100%" alt="Image">
+    </a>
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">
+  <div class="row">
+    <div class="col-sm-3">
+      <a href="https://github.com/nikhleshpatel7734/student-mng-system">
+      <p>Student Mangement Sytem</p>
+      <img src="st.png" class="img-responsive" style="width:100%" alt="Image">
+    </a>
+    </div>
+    <div class="col-sm-3">
+      <a href="https://github.com/nikhleshpatel7734/employee-management-system">
+      <p>Employee Mangement System</p>
+      <img src="emp.png" class="img-responsive" style="width:100%" alt="Image">
+    </a>
+    </div>
+    <div class="col-sm-3">
+      <a href="">
+      <p>Portfolio</p>
+      <img src="prt.png" class="img-responsive" style="width:100%" alt="Image">
+    </a>
+    </div>
+    <div class="col-sm-3">
+      <a href="https://github.com/nikhleshpatel7734/fitness-hub">
+      <p>Fitess Hub</p>
+      <img src="fit.png" class="img-responsive" style="width:100%" alt="Image">
+    </a>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <h5>Thanks For Visiting 🙏</h5>
+  <h7>Connect with us:</h7>
+ <a href="facebook.com">Facebook</a><br>
+ <a href="https://github.com/nikhleshpatel7734">Github  </a><br>
+ <a href="https://www.linkedin.com/in/nikhlesh-b45510278">Linked</a><br>
+ <p>© NIKHLESH</p>
+</footer>
+
+<script>
+const colors = ['red', 'blue', 'green', 'orange']
+
+function changeColor() {
+  const title = document.getElementById('portfolio-title')
+  const randomColor = colors[Math.floor(Math.random() * colors.length)]
+  title.style.color = randomColor
+}
+
+setInterval(changeColor, 1000)
+</script>
+
+</body>
+</html>
